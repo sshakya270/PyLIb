@@ -14,13 +14,15 @@ elon_face_encoding = face_recognition.face_encodings(image_of_elon)[0]
 known_face_encodings = [
   bill_face_encoding,
   steve_face_encoding,
-  elon_face_encoding
+  elon_face_encoding,
+  saijal_face_encoding
 ]
 
 known_face_names = [
   "Bill Gates",
   "Steve Jobs",
-  "Elon Musk"
+  "Elon Musk",
+  "Saijal Shakya"
 ]
 
 # Load test image to find faces in
